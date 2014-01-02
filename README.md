@@ -50,4 +50,4 @@ pygmentizeFile("package.json", function(err, out) {
 MIT
 
 ## Alternatives
-- [https://github.com/pksunkara/pygments.js](`pygments`)
+- [pygments](https://github.com/pksunkara/pygments.js)
