@@ -27,6 +27,7 @@ Allowed options are:
 
 - `lexer`: Specify lexer for pygmentize
 - `formatter`: Specify pygmentize lexer
+- `options`: A object of options passed to pygmentize via `-P key=value`
 
 Options need not be specified. If no lexer is provided pygmentize will attempt
 to guess based on contents. The default formatter is `html`.
