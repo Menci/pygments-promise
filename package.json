@@ -1,24 +1,24 @@
 {
-  "name": "pygments-async",
+  "name": "pygments-promise",
   "version": "0.0.1",
-  "description": "Asynchronous wrapper for Pygments",
+  "description": "Promise wrapper for Pygments",
   "main": "index.js",
   "scripts": {
     "test": "make test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jwilm/pygments-async.git"
+    "url": "git://github.com/Menci/pygments-promise.git"
   },
   "keywords": [
     "pygments"
   ],
-  "author": "Joe Wilm <jdwilm@gmail.com> (http://jwilm.com/)",
+  "author": "Menci <huanghaorui301@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jwilm/pygments-async/issues"
+    "url": "https://github.com/Menci/pygments-promise/issues"
   },
-  "homepage": "https://github.com/jwilm/pygments-async",
+  "homepage": "https://github.com/Menci/pygments-promise",
   "dependencies": {
 
   },

@@ -1,7 +1,7 @@
-pygments-async
+pygments-promise
 ==============
 
-Fully asynchronous wrapper for Pygments
+Fully Promise wrapper for Pygments
 
 ## Usage
 
@@ -17,7 +17,7 @@ Example:
 var pygmentize = require('pygments-async').pygmentize
   , markup;
 
-pygmentize("puts 'Hello, world!'", {lexer: 'ruby'}, function(err, out) {
+pygmentize("puts 'Hello, world!'", {lexer: 'ruby'}).then(function(out) {
   // out contains pygmentized code
   markup = out;
 });
@@ -36,10 +36,10 @@ to guess based on contents. The default formatter is `html`.
 Load a file and pygmentize it
 
 ```javascript
-var pygmentize = require('pygments-async').pygmentize
+var pygmentizeFile = require('pygments-async').pygmentizeFile
   , markup;
 
-pygmentizeFile("package.json", function(err, out) {
+pygmentizeFile("package.json").then(function(out) {
   // out contains pygmentized package.json
   markup = out;
 });
@@ -51,3 +51,4 @@ MIT
 
 ## Alternatives
 - [pygments](https://github.com/pksunkara/pygments.js)
+- [pygments-async](https://github.com/Menci/pygments-async)
